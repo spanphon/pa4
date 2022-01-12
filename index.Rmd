@@ -1,0 +1,115 @@
+---
+title: "Programming assignment 4"
+output: 
+  html_document: 
+    number_sections: yes
+    theme: spacelab
+    toc: yes
+    highlight: zenburn
+---
+
+# Overview
+
+In this programming assignment you will work with raw production data. 
+The goals are for you to have a better understanding of how to manage large 
+projects and to gain experience analyzing stop consonants. 
+You will generate an a priori hypothesis, segment audio files, label them with textgrids, use them to create a dataset, and analyze said dataset.
+To this end you will need to (partially) write/troubleshoot praat scripts. 
+Once you have a dataset, you will use your R skills to tidy the data and 
+provide basic descriptive statistics and visualizations in a reproducible 
+report. 
+All steps/answers/etc. must be documented and reproducible.
+
+# About the experiment
+
+You will fork a repo that includes a production experiment. 
+Do not worry too much about the procedures involved in creating the recordings.
+Your focus is on learning to organize a project, extract data, etc. 
+That said, you should know a little bit about the recordings. 
+You will work with audio files from 6 participants: 3 bilinguals, and
+3 L2 learners. 
+All the participants were recorded saying nonse words in Spanish (or what they 
+believed to be Spanish). 
+The target words are paroxytones that contain voiceless stops in disyllabic sequences. 
+All 5 oral vowels of Spanish are included and each target was repeated 3 
+times. 
+Think about this information and generate a hypothesis regarding what you 
+think you will find (see below).
+The praat scripts you work with will extract voice onset time and the first 
+two formants of the stressed vowel.
+
+# Procedure
+
+Fork the repo here: https://github.com/jvcasillas/pa_4  
+Take time to carefully examine the structure of the repo. 
+Many of the folders contain `README` text documents. 
+You should pay special attention to the information contained in these files, 
+as it is unlikely that you will be able to complete this assignment if you 
+do not.
+Inside the `report` folder there is a `README.Rmd` file. 
+This file is where you will conduct all of your work in R and respond to all 
+questions. 
+Read it carefully. 
+
+# Submit
+
+Your project will be a fork of my `pa_4` repo. 
+After you fork the repo, you should clone it to your computer using the github 
+app and work with it from there. 
+Commit and push all changes in your copy of the project to github using either 
+the github app or RStudio.
+When you finish the assignment create a new issue and tag me (@jvcasillas). 
+No need to submit a pull request. 
+**Make sure your repo is public!**
+*Note*: I am interested in the entire project. 
+I should be able to run all scripts (praat), as well as knit your reproducible 
+report. 
+Test to make sure everything works! 
+
+
+# Evaluation
+
+This is programming assignment 4 of 4. 
+It is worth 10 of the 40 possible points. 
+In order to receive full credit you must segment the audio files, extract 
+the VOT data, load it into R, and complete a minimal analysis (descriptive 
+stats, plots). 
+
+|                 Task                                              | Points |
+| :---------------------------------------------------------------- | -----: |
+| Fork the `pa_4` repo                                              |    0.5 |
+| Correctly segment items                                           |      2 |
+| Fix scripts and extract data                                      |      2 |
+| Generate a hypothesis                                             |    0.5 |
+| Calculate descriptives for VOT, present them in a table           |      1 |
+| Plot VOT                                                          |      1 |
+| Include figure(s) of the acoustic data                            |    0.5 |
+| Evaluate your hypothesis                                          |    0.5 |
+| Write a reproducible report                                       |      1 |
+| Knit the reproducible report                                      |      1 |
+| **Total**                                                         |     10 |
+
+</br></br></br>
+
+# Tips
+
+- Remember that Praat and R are picky regarding special characters and 
+capitalized characters.
+Before you contact me (or others) for help, make sure you have reviewed 
+previous programming assignments, the praat help manual, google, etc.
+- You will not be able to finish this project the day it is due. 
+The skills required to complete this assignment are cumulative, thus it will 
+take a bit more time.
+Start early and think about the problems it poses. 
+- Regarding your hypothesis: do not go crazy and over think this. 
+It can be a simple, obvious hypothesis, or something more risky/specific. 
+Just remember that you have to be able to evaluate it (simple is usually 
+better). 
+If you know how to do t-tests, anova's, mixed effect models, etc., great... if 
+not, also great. 
+Evaluate your hypothesis based on your current skill set (descriptive stats 
+and plots are fine!). 
+Keep in mind what we have learned about stops in class and in the readings.
+
+
+</br></br></br></br></br>
