@@ -17,8 +17,8 @@ To this end you will need to (partially) write/troubleshoot praat scripts.
 Once you have a data set, you will use your R skills to tidy the data and provide basic descriptive statistics and visualizations in a reproducible report. 
 All steps/answers/etc. must be documented and reproducible.
 
-**Assigned**: Week 11 (04/08)  
-**Due**: Monday, 4/15 before 10pm
+**Assigned**: Week 11 (11/13)  
+**Due**: Monday, 11/25 before 10pm
 
 # About the experiment
 
@@ -36,6 +36,7 @@ The praat scripts you work with will extract voice onset time and the first two 
 # Procedure
 
 Fork the repo here: https://github.com/jvcasillas/pa_4  
+See below if you don't know what this means. 
 Take time to carefully examine the structure of the repo. 
 Many of the folders contain `README` text documents. 
 You should pay special attention to the information contained in these files, as it is unlikely that you will be able to complete this assignment if you do not.
@@ -91,6 +92,7 @@ Just remember that you have to be able to evaluate it (simple is usually better)
 If you know how to do t-tests, ANOVA's, mixed effect models, etc., great... if not, also great. 
 Evaluate your hypothesis based on your current skill set (descriptive stats and plots are fine!). 
 Keep in mind what we have learned about stops in class and in the readings.
+- Important tips and extra info [here](https://youtu.be/ERh2Gar5UwM)
 
 
 </br></br></br></br></br>
